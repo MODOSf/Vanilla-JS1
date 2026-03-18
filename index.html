@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Universe - 3D Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <canvas id="webgl"></canvas>
+
+    <div class="scroll-container">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="nav-logo">ANIME<span>VERSE</span></div>
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#worlds" class="nav-link">Worlds</a>
+          <a href="#characters" class="nav-link">Characters</a>
+          <a href="#story" class="nav-link">Story</a>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-subtitle">Welcome to the</div>
+          <h1 class="hero-title">
+            <span class="hero-title-line">ANIME</span>
+            <span class="hero-title-line">UNIVERSE</span>
+          </h1>
+          <p class="hero-description">
+            Where dimensions collide and legends are born
+          </p>
+          <button class="hero-button">
+            <span>Enter the Void</span>
+            <div class="button-glow"></div>
+          </button>
+        </div>
+        <div class="scroll-indicator">
+          <div class="scroll-arrow"></div>
+          <span>Scroll to explore</span>
+        </div>
+      </section>
+
+      <!-- Worlds Section -->
+      <section id="worlds" class="section worlds">
+        <div class="section-content">
+          <h2 class="section-title">
+            <span class="title-decoration"></span>
+            Infinite Worlds
+            <span class="title-decoration"></span>
+          </h2>
+          <div class="worlds-grid">
+            <div class="world-card">
+              <div class="world-icon">⚔️</div>
+              <h3>Shonen Battlegrounds</h3>
+              <p>Epic battles where willpower shapes reality</p>
+            </div>
+            <div class="world-card">
+              <div class="world-icon">🌃</div>
+              <h3>Cyber Dystopia</h3>
+              <p>Neon-lit streets hiding ancient secrets</p>
+            </div>
+            <div class="world-card">
+              <div class="world-icon">🌑</div>
+              <h3>Dark Territories</h3>
+              <p>Shadows where demons and hunters clash</p>
+            </div>
+            <div class="world-card">
+              <div class="world-icon">✨</div>
+              <h3>Spirit Realm</h3>
+              <p>Mystical planes of supernatural power</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Characters Section -->
+      <section id="characters" class="section characters">
+        <div class="section-content">
+          <h2 class="section-title">
+            <span class="title-decoration"></span>
+            Legendary Heroes
+            <span class="title-decoration"></span>
+          </h2>
+          <div class="characters-container">
+            <div class="character-card">
+              <div class="character-rank">S-Rank</div>
+              <div class="character-name">Void Walker</div>
+              <div class="character-stats">
+                <div class="stat"><span>Power:</span> 9999</div>
+                <div class="stat"><span>Speed:</span> 8888</div>
+                <div class="stat"><span>Tech:</span> 7777</div>
+              </div>
+            </div>
+            <div class="character-card">
+              <div class="character-rank">S-Rank</div>
+              <div class="character-name">Cyber Samurai</div>
+              <div class="character-stats">
+                <div class="stat"><span>Power:</span> 8888</div>
+                <div class="stat"><span>Speed:</span> 9999</div>
+                <div class="stat"><span>Tech:</span> 9500</div>
+              </div>
+            </div>
+            <div class="character-card">
+              <div class="character-rank">SS-Rank</div>
+              <div class="character-name">Shadow Reaper</div>
+              <div class="character-stats">
+                <div class="stat"><span>Power:</span> 9500</div>
+                <div class="stat"><span>Speed:</span> 9200</div>
+                <div class="stat"><span>Tech:</span> 8500</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Story Section -->
+      <section id="story" class="section story">
+        <div class="section-content">
+          <h2 class="section-title">
+            <span class="title-decoration"></span>
+            The Genesis
+            <span class="title-decoration"></span>
+          </h2>
+          <div class="story-content">
+            <div class="story-text">
+              <p>
+                In a fractured multiverse where cyberpunk cities merge with ancient battlegrounds,
+                heroes rise from the ashes of fallen worlds. Each dimension holds its own power system,
+                its own legends, and its own way of forging warriors.
+              </p>
+              <p>
+                The Void—a realm between realities—threatens to consume everything. Only those who master
+                the art of dimensional combat can hope to stand against the coming darkness.
+              </p>
+              <p>
+                Your journey begins now. Will you become a legend, or fade into the forgotten void?
+              </p>
+            </div>
+            <div class="story-stats">
+              <div class="stat-box">
+                <div class="stat-number" data-target="12">0</div>
+                <div class="stat-label">Dimensions</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="500">0</div>
+                <div class="stat-label">Heroes</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="∞">0</div>
+                <div class="stat-label">Possibilities</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2024 Anime Universe. All dimensions reserved.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
